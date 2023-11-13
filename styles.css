@@ -1,0 +1,67 @@
+body{
+    margin-top: 20px;
+    background-color: grey;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 15px;
+    flex-direction: row;
+}
+.topbar{
+    background-color: skyblue;
+    overflow: hidden;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.topbar a{
+    float: left;
+    color: darkblue;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+a:hover{
+    color: red;
+}
+.slidebar{
+    background-color: black;
+    width: 700px;
+    text-align: center;
+    color: white;
+    height: 80%;
+    font-size: 20px;
+}
+.slidebar a{
+    margin-left: px;
+    display: block;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+a:hover{
+    color: blue;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: ghostwhite;
+    flex: 1;
+    margin-left: 20px;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 20px;
+    display: flex;
+}
+.round-circle{
+    width: 170px;
+}
